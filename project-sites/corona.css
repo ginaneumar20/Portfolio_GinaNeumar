@@ -1,0 +1,469 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+  }
+  
+  /* Gradient, Text and Picture */
+  
+  .image-with-text {
+    text-align: center;
+    position: relative;
+    margin: 0;
+  }
+  
+  .image-with-text img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0%;
+    max-height: 80%;
+    object-fit: cover;
+  }
+  
+  .image-with-text .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-60%, -60%);
+    text-align: right;
+    color: white;
+  }
+  
+  .image-with-text .text-overlay h2 {
+    margin-top: 0;
+    font-size: 50px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+  }
+  
+  
+  .image-with-text .text-overlay .subtext {
+    margin-top: 20px;
+    font-size: 32px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  /*   
+      @media (max-width: 768px) {
+        .ImageWithText {
+          font-size: 22px;
+          flex-direction: column;
+          text-align: center;
+          padding: 20px;
+        }
+      
+        .bigImage {
+          justify-content: center;
+        }
+      
+        .bigImage img {
+          max-width: 90vw;
+          max-height: 90vh;
+          margin-right: 0;
+          margin-bottom: 20px;
+        }
+      
+        .textOverImage {
+          margin-left: 0;
+        }
+      }
+       */
+  /* Section Overview  */
+  .overview {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto; /* Zentriert den Inhalt horizontal */
+    padding: 20px;
+    text-align: left; /* Text linksbündig ausrichten */
+    max-width: 1200px;
+    margin-bottom: 10vh;
+  }
+  
+  .overview-heading {
+    color: #c25d6f;
+    text-align: left; /* Zentriert die Überschrift */
+    margin-top: 40px;
+    margin-bottom: 40px; /* Fügt einen Abstand unterhalb der Überschrift hinzu */
+  }
+  
+  .overview h1 {
+    font-size: 34px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 0;
+    letter-spacing: 1px;
+  }
+  
+  .overview p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* target Group */
+  .target-group {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto; /* Zentriert den Inhalt horizontal */
+    padding: 20px;
+    text-align: left; /* Text linksbündig ausrichten */
+    max-width: 1200px;
+  }
+  
+  .target-group-heading {
+    color: #c25d6f;
+    text-align: left;
+    margin-bottom: 40px;
+  }
+  
+  .target-group h1 {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 0;
+    letter-spacing: 1px; /* Letter Spacing */
+  }
+  
+  .target-group p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  /* Slider */
+  /* Slideshow container */
+  .slideshow-container1 {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.3); /* Hintergrundfarbe der Buttons */
+    opacity: 0; /* Standardmäßig unsichtbar */
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .slideshow-container1:hover .prev,
+  .slideshow-container1:hover .next {
+    opacity: 1; /* Sichtbar bei Hover */
+  }
+  
+  /* Position the "prev button" to the left */
+  .prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit of transparency */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Caption text */
+  .Ctext {
+    color: #000000;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: relative;
+    bottom: -15px; /* Ändere den Wert nach Bedarf */
+    width: 100%;
+    text-align: left;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #000000;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: relative;
+    top: 0;
+  }
+  
+  /* Sketches Text*/
+  
+  .ideation {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto; /* Zentriert den Inhalt horizontal */
+    padding: 20px;
+    text-align: left; /* Text linksbündig ausrichten */
+    max-width: 1200px;
+    margin-bottom: 10vh;
+  }
+  
+  .ideation-heading {
+    color: #c25d6f;
+    text-align: left; /* Zentriert die Überschrift */
+    margin-top: 40px;
+    margin-bottom: 40px; /* Fügt einen Abstand unterhalb der Überschrift hinzu */
+  }
+  
+  .ideation h1 {
+    font-size: 34px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 0;
+    letter-spacing: 1px;
+  }
+  
+  .ideation p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Sketches Slider */
+  
+  .slideshow-container2 {
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  /* Next & previous buttons */
+  .prev2,
+  .next2 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.3); /* Hintergrundfarbe der Buttons */
+    opacity: 0; /* Standardmäßig unsichtbar */
+  }
+  
+  /* Position the "next button" to the right */
+  .next2 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .slideshow-container2:hover .prev2,
+  .slideshow-container2:hover .next2 {
+    opacity: 1; /* Sichtbar bei Hover */
+  }
+  
+  /* Position the "prev button" to the left */
+  .prev2 {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit of transparency */
+  .prev2:hover,
+  .next2:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Caption text */
+  .Ctext2 {
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: relative;
+    bottom: -5px; /* Ändere den Wert nach Bedarf */
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext2 {
+    color: #000000;
+    font-size: 12px;
+    padding: 20px 20px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Wireframe */
+  .wireframe {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto; /* Zentriert den Inhalt horizontal */
+    padding: 20px;
+    text-align: left; /* Text linksbündig ausrichten */
+    max-width: 1200px;
+    margin-bottom: 10vh;
+  }
+  
+  .wireframe-heading {
+    color: #c25d6f;
+    text-align: left; /* Zentriert die Überschrift */
+    margin-top: 40px;
+    margin-bottom: 40px; /* Fügt einen Abstand unterhalb der Überschrift hinzu */
+  }
+  
+  .wireframe h1 {
+    font-size: 34px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 0;
+    letter-spacing: 1px;
+  }
+  
+  .wireframe p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Bilder zentrieren */
+  }
+  
+  .image-wrapper {
+    margin-bottom: 50px; /* Abstand zwischen den Bildern anpassen */
+    text-align: center;
+  }
+  
+  .image-wrapper img {
+    width: 100%; /* Breite auf 100% festlegen */
+    height: auto;
+    object-fit: contain; /* Das Bild beibehalten, um Verzerrungen zu vermeiden */
+    max-height: 800px; /* Maximale Höhe des Bildes anpassen */
+  }
+  
+  .image-caption {
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .image-wrapper h4 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .image-wrapper {
+    border-bottom: 2px solid #c25d6f;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .image-wrapper:last-child {
+    border-bottom: none;
+  }
+  
+  /* UI Design */
+  
+  
+  /* Prototype */
+  
+  .prototype {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto; /* Zentriert den Inhalt horizontal */
+    padding: 20px;
+    text-align: left; /* Text linksbündig ausrichten */
+    max-width: 1200px;
+    margin-bottom: 10vh;
+  }
+  
+  .prototype-heading {
+    color: #c25d6f;
+    text-align: left; /* Zentriert die Überschrift */
+    margin-top: 40px;
+    margin-bottom: 40px; /* Fügt einen Abstand unterhalb der Überschrift hinzu */
+  }
+  
+  .prototype h1 {
+    font-size: 34px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 0;
+    letter-spacing: 1px;
+  }
+  
+  .prototype p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  /* HIER FEHLT NOCH WAS */
+  
+  /* Reflection */
+  
+  .reflection {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto; /* Zentriert den Inhalt horizontal */
+    padding: 20px;
+    text-align: left; /* Text linksbündig ausrichten */
+    max-width: 1200px;
+    margin-bottom: 15vh;
+  }
+  
+  .reflection-heading {
+    color: #c25d6f;
+    text-align: left; /* Zentriert die Überschrift */
+    margin-top: 40px;
+    margin-bottom: 40px; /* Fügt einen Abstand unterhalb der Überschrift hinzu */
+  }
+  
+  .reflection h1 {
+    font-size: 34px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 0;
+    letter-spacing: 1px;
+  }
+  
+  .reflection p {
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  
+  footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  

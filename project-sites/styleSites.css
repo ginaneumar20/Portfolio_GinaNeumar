@@ -1,0 +1,159 @@
+/* Gemeinsame Stile für alle Seiten */
+  body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .test{
+    background-color: black;
+  }
+
+  /* next Project*/
+  .project-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .project-button-container {
+    margin-left: auto;
+  }
+  
+  .project-button {
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 50px;
+    background-color: #ffffff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+
+  .project-button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+  }
+  /*  */
+  
+  .section-title {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 72px;
+  }
+  
+  .shortDescription{
+    font-size: 22px;
+    margin-bottom: 150px;
+    line-height: 150%;
+  }
+  /* Stile für die Projekt-Detailseite */
+  #project-details {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+
+  .project-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  h2{
+    font-size: 28px;
+  }
+  
+  .project-description p {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    line-height: 125%;
+  }
+
+
+  /* CSS-Styling für den Button */
+  
+  
+  /*  */
+  /*  */
+  
+  .project-details ul {
+    font-size: 18px;
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .project-details li {
+    margin-bottom: 10px;
+  }
+
+  .wireframe img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Hinzugefügt */
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+
+  /* Karusell  */
+  .carousel {
+    position: relative;
+    text-align: center;
+  }
+  
+  .carousel img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .carousel-buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #prevButton {
+    order: 1;
+  }
+  
+  #nextButton {
+    order: 2;
+  }
+  
+  .gallery-button {
+    background-color: white;
+    color: #333;
+    border: 2px solid rgb(48, 180, 169);
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 28px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 0 5px;
+  }
+  
+  .gallery-button:hover {
+    background-color: rgb(48, 180, 169);
+    color: white;
+    cursor: pointer;
+  }
+  
+  #description{
+    font-size: 22px;
+    margin-bottom: 60px;
+  } 
+
+
+
+
+  

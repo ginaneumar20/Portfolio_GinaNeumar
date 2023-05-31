@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Smarte Kasse</title>
+    <link rel="stylesheet" type="text/css" href="smarteKasse.css" />
+  </head>
+  <body>
+    <header>
+      <section class="ImageWithText">
+        <div class="bigImage">
+          <div class="textOverImage">
+            <h2>
+              Track, analyze, and optimize consumption with our <br />RFID
+              solution.
+            </h2>
+          </div>
+          <img src="Smartekasse/spiegelung.png" alt="Dein Bild" />
+        </div>
+      </section>
+    </header>
+    <section class="overview">
+      <h3 class="overview-heading">Overview</h3>
+      <div class="overview-text">
+        <h1>Background</h1>
+        <p>
+          As a group project, we were asked to solve a problem for a small
+          company. In the company there was coffee that every employee could
+          get, he just had to put a line on a tally sheet so that you could
+          determine how many coffees he got and how much he had to pay for it at
+          the end of the month. In addition, someone had to count the individual
+          tally marks and collect the money from the individual employees in
+          cash to buy new coffee utensils. Our task was to find a digital
+          automated solution for this.
+        </p>
+        <h1>Goal</h1>
+        <p>
+          After some concept discussions with the company it was clear to us
+          that we need 2 things: a terminal where you can dial in the desired
+          products after a RFID chip scanner. And a web application with a login
+          function, so that the individual employees have an overview of the
+          purchased products and can also pay directly. Admins can also
+          create/delete employees and create/delete products.
+        </p>
+        <h1>Role</h1>
+        <p>UX Designer and Prototyper</p>
+      </div>
+    </section>
+    <section class="target-group">
+      <h3 class="target-group-heading">Target Group/Persona</h3>
+      <div class="slideshow-container1">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 2</div>
+          <img src="Smartekasse/Persona1.png" style="width: 100%" />
+          <div class="Ctext">
+            Alexander Diezmann is supposed to represent an admin at our product,
+            who manages the employees and products. It is important to him that
+            the system is easily accessible.
+          </div>
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">2 / 2</div>
+          <img src="Smartekasse/Persona2.png" style="width: 100%" />
+          <div class="Ctext">
+            Simon Kruster is an employee and therefore a user of our system. It
+            is particularly important to him that his data is protected and that
+            you can use his existing chip card for identification. Among other
+            things, user-friendliness is very important to him.
+          </div>
+        </div>
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        <!-- Caption text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="ideation">
+      <h3 class="ideation-heading">Ideation</h3>
+      <div class="ideation-text">
+        <h1>Sketches</h1>
+        <p>
+          When I began sketching, my objective was to generate ideas for making
+          the design intuitive. I aimed to create a user experience where
+          individuals wouldn't have to spend an excessive amount of time
+          exploring the application before comprehending its functionality.
+        </p>
+      </div>
+      <div class="slideshow-container2">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides2">
+          <div class="numbertext2">1 / 7</div>
+          <img src="Smartekasse/Terminal 1.png" style="width: 100%" />
+        </div>
+        <div class="mySlides2">
+          <div class="numbertext2">2 / 7</div>
+          <img src="Smartekasse/Terminal 2.png" style="width: 100%" />
+        </div>
+        <div class="mySlides2">
+          <div class="numbertext2">3 / 7</div>
+          <img src="Smartekasse/Startscreen.png" style="width: 100%" />
+        </div>
+        <div class="mySlides2">
+          <div class="numbertext2">4 / 7</div>
+          <img src="Smartekasse/Login.png" style="width: 100%" />
+        </div>
+        <div class="mySlides2">
+          <div class="numbertext2">5 / 7</div>
+          <img src="Smartekasse/Konto.png" style="width: 100%" />
+        </div>
+        <div class="mySlides2">
+          <div class="numbertext2">6 / 7</div>
+          <img src="Smartekasse/Verwaltung.png" style="width: 100%" />
+        </div>
+        <div class="mySlides2">
+          <div class="numbertext2">7 / 7</div>
+          <img src="Smartekasse/Ueber Uns.png" style="width: 100%" />
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev2" onclick="plusSlides2(-1, 1)">&#10094;</a>
+        <a class="next2" onclick="plusSlides2(1, 1)">&#10095;</a>
+      </div>
+    </section>
+
+    <section class="wireframe">
+      <h3 class="wireframe-heading">Wireframe</h3>
+      <div class="wireframe-text">
+        <h1>Low-fidelity Wireframe</h1>
+        <p>
+          I used my sketches as a guide for the wireframing portion of my design
+          process. I stayed in a black and white style for now and tried to
+          implement a minimalistic but not boring design using the idea of the
+          gray wave element.
+        </p>
+      </div>
+      <div class="image-container">
+        <div class="image-wrapper">
+          <h4>Terminal</h4>
+          <img
+            src="Smartekasse/LoFi_Terminal.png"
+            alt="Low Fidelity Terminal"
+          />
+        </div>
+        <div class="image-wrapper">
+          <h4>Webapplication 1/2</h4>
+          <img
+            src="Smartekasse/LoFi_Web1.png"
+            alt="Low Fidelity Webapplication1"
+          />
+        </div>
+        <div class="image-wrapper">
+          <h4>Webapplication 1/2</h4>
+          <img
+            src="Smartekasse/LoFi_Web2.png"
+            alt="Low Fidelity Webapplication1"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="prototype">
+      <h3 class="prototype-heading">Prototype</h3>
+      <div class="prototype-text">
+        <h1>High-fidelity Prototype</h1>
+        <p>
+          I created the high fidelity prototype with Figma. The colors I have
+          adapted to the company, because this has the colors black, white and
+          neon yellow / green. Because the software is designed and developed
+          specifically for the company. The wave element was taken over but
+          assigned to the neon color to add some color to the design. The
+          prototype was also expanded or deepened to give the developers a
+          better idea for the implementation.
+        </p>
+      </div>
+      <div class="image-wrapper">
+        <h4>Terminal</h4>
+        <img src="Smartekasse/HiFi_Terminal1.png" alt="Image 1" />
+        <p>
+          Here you can see the start screen of the terminal, which is actually
+          visible most of the time when it is not in use. Here you are clearly
+          asked to identify yourself with your RFID chip. <br />
+          <br />
+          As soon as you have identified yourself, the interactive page of the
+          terminal appears. You can select the desired products and add them to
+          your account. If you change your mind during the process and don't
+          want to buy, there is a "back" button to cancel the process.
+        </p>
+      </div>
+      <div class="image-wrapper">
+        <img src="Smartekasse/HiFi_Terminal2.png" alt="Image 2" />
+        <p>
+          For the High Fidelity prototype I decided to use outline icons and
+          fill them as soon as they are selected. To do this, I added a number
+          to the top corner, so that it is clear to the user which product and
+          how often he has selected this product. Also the "add" button appears
+          as soon as a product is selected.
+        </p>
+      </div>
+      <div class="image-wrapper">
+        <img src="Smartekasse/HiFi_Terminal3.png" alt="Image 3" />
+        <p>
+          At the end a text appears where it is noted which product and how
+          often this product is now added to the user's account.
+        </p>
+      </div>
+      <div class="image-wrapper">
+        <h4>Webapplication</h4>
+        <img src="Smartekasse/HiFi_Web1.png" alt="Image 4" />
+        <p>
+          The home page of the web applications has a Home, Credit Balance,
+          Administer, About Us and a Login field. I don't want to overwhelm the
+          users of the site and therefore I put a small number of interactions
+          on the home page. In addition, you can change the entire language of
+          the page.
+        </p>
+      </div>
+      <div class="image-wrapper">
+        <img src="Smartekasse/HiFi_Web2.png" alt="Image 5" />
+        <p>
+          The account balance page contains a graph with the number and
+          description of the added products, in a month. Below is the "Payment"
+          button where you can choose among different payment methods. <br />
+          <br />
+
+          On the right side there is something like a receipt. It is listed what
+          and how much was added on each day, to offer the user an overview. At
+          the bottom you can see the total cost of the month. Of course, it is
+          possible to select other months and not only the current month to
+          view.
+        </p>
+      </div>
+      <div class="image-wrapper">
+        <img src="Smartekasse/HiFi_Web3.png" alt="Image 6" />
+        <p>
+          For the admins there is an extra function "Manage" which only they can
+          see. Here you can manage employees or products.
+        </p>
+      </div>
+      <div class="image-wrapper">
+        <img src="Smartekasse/HiFi_Web4.png" alt="Image 7" />
+        <p>
+          The two sides differ only in the property employee and product. For
+          both you can create employees or products and also search, manage and
+          delete them.
+        </p>
+      </div>
+    </section>
+
+    <section class="reflection">
+      <h3 class="reflection-heading">Reflection</h3>
+      <div class="Reflection-text">
+        <h1>What did I learn</h1>
+        <p>
+          Smart Checkout, was the first project where I actually worked with a
+          company and designed something for them. I was a bit nervous at the
+          beginning, as I didn't have a detailed design brief or an existing
+          design to reference. However, I quickly realized that I had a good
+          understanding of the user context and goals, as I was designing an
+          application to solve a problem that I could personally relate to. The
+          project was a lot of fun because I was able to solve a real problem
+          and I also had a lot of creative freedom.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2023 Gina Neumar</p>
+    </footer>
+    <script src="smarteKasse.js"></script>
+  </body>
+</html>
